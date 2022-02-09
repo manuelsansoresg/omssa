@@ -49,13 +49,13 @@
                     <nav>
                         <ul class="navbar-nav" id="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link scroll text-dark" href="/">Inicio</a>
+                                <a class="nav-link scroll text-dark" href="http://omssa.yalku.mx/">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link scroll text-dark" href="http://omssa.yalku.mx#credit">Crédito</a>
+                                <a class="nav-link scroll text-dark" href="http://omssa.yalku.mx/#credit">Crédito</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link scroll text-dark" href="http://omssa.yalku.mx#contact">Contacto</a>
+                                <a class="nav-link scroll text-dark" href="http://omssa.yalku.mx/#contact">Contacto</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-dark" href="javascript:;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
