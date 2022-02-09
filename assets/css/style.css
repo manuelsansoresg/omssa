@@ -99,6 +99,7 @@
   --primary-bg-color-2: linear-gradient(-47deg, #2F2C7B 0%, #2F2C7B 100%);
   --primary-bg-color-3: #ffffff;
   --primary-bg-color-4: rgba(16, 16, 45, 1);
+  --secondary-bg-color-5: #d5def8;
   --nav-bg-color: #d3d3d3;
 }
 
@@ -771,7 +772,7 @@ img {
   background: rgba(0, 0, 0, 0) url("../img/bg/map.png") no-repeat scroll center center/cover;
 }
 
-.breadcrumb-area {
+.bg-breadcrumb-area {
   background: rgba(0, 0, 0, 0) url("../img/bg/download-bg.jpg") no-repeat scroll center center/cover;
 }
 

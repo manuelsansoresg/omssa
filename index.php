@@ -29,45 +29,7 @@
     <!--====== Scroll To Top Area End ======-->
 
     <div class="main">
-        <!-- ***** Header Start ***** -->
-        <header class="navbar navbar-sticky navbar-expand-lg navbar-dark">
-            <div class="container position-relative">
-                <a class="navbar-brand" href="index.html">
-                    <img class="navbar-brand-regular" src="assets/img/logo_web.png" alt="brand-logo">
-                    <img class="navbar-brand-sticky" src="assets/img/logo_web.png" alt="sticky brand-logo">
-                </a>
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="navbar-inner">
-                    <!--  Mobile Menu Toggler -->
-                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <nav>
-                        <ul class="navbar-nav" id="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link scroll" href="#home">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link scroll" href="#credit">Crédito</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link scroll" href="#contact">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link scroll" href="#pricing">Otros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link scroll" href="#login">Ingresar</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <!-- ***** Header End ***** -->
+        <?php include('partials/header.php') ?>
 
         <!-- ***** Welcome Area Start ***** -->
         <section id="home" class="section welcome-area bg-inherit h-100vh overflow-hidden">
@@ -419,28 +381,7 @@
         <div class="height-emulator d-none d-lg-block"></div>
         <!--====== Height Emulator Area End ======-->
 
-        <!--====== Footer Area Start ======-->
-        <footer class="footer-area footer-fixed">
-          
-            <!-- Footer Bottom -->
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <!-- Copyright Area -->
-                            <div class="copyright-area d-flex flex-wrap justify-content-center justify-content-sm-between text-center py-4">
-                                <!-- Copyright Left -->
-                                <div class="copyright-left">
-                                    OPERADORA MERCANTIL DEL SURESTE S.A DE C.V.
-                                </div>
-                                <!-- Copyright Right -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--====== Footer Area End ======-->
+        <?php include('partials/footer.php') ?>
     </div>
 
 
