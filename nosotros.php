@@ -63,7 +63,7 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <li>
-                                        <a class="dropdown-item text-dark" href="/nosotros.php">Nosotros</a>
+                                        <a class="dropdown-item text-dark" href="http://omssa.yalku.mx/nosotros.php">Nosotros</a>
                                     </li>
 
                                 </ul>
