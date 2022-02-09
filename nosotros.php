@@ -52,10 +52,10 @@
                                 <a class="nav-link scroll text-dark" href="/">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link scroll text-dark" href="#credit">Crédito</a>
+                                <a class="nav-link scroll text-dark" href="/#credit">Crédito</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link scroll text-dark" href="/nosotros.php">Contacto</a>
+                                <a class="nav-link scroll text-dark" href="/#contact">Contacto</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-dark" href="javascript:;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -63,7 +63,7 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <li>
-                                        <a class="dropdown-item text-dark" href="index.html">Nosotros</a>
+                                        <a class="dropdown-item text-dark" href="/nosotros.php">Nosotros</a>
                                     </li>
 
                                 </ul>
