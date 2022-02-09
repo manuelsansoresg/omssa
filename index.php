@@ -49,7 +49,7 @@
                     <div class="col-12 col-md-5">
                         <!-- Welcome Thumb -->
                         <div class="welcome-thumb" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
-                            <img src="assets/img/features/thumb-1.png" alt="">
+                            <img src="assets/img/landing.jpg" alt="">
                         </div>
                     </div>
                 </div>
