@@ -12,7 +12,7 @@
     <title>Nosotros</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="icon" href="assets/img/favicon/favicon-16x16.png">
 
     <!-- ***** All CSS Files ***** -->
 
