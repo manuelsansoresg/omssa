@@ -12,7 +12,7 @@
     <title>Nosotros</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="icon" href="assets/img/favicon/logo_web.ico">
 
     <!-- ***** All CSS Files ***** -->
 
@@ -30,54 +30,7 @@
 
     <div class="main">
 
-        <!-- ***** Header Start ***** -->
-        <header class="navbar navbar-sticky navbar-expand-lg navbar-dark shadow">
-            <div class="container position-relative">
-                <a class="navbar-brand" href="index.html">
-                    <img class="navbar-brand-regular" src="assets/img/logo_web.png" alt="brand-logo">
-                    <img class="navbar-brand-sticky" src="assets/img/logo_web.png" alt="sticky brand-logo">
-                </a>
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="navbar-inner">
-                    <!--  Mobile Menu Toggler -->
-                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <nav>
-                        <ul class="navbar-nav" id="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link scroll text-dark" href="http://omssa.yalku.mx/">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link scroll text-dark" href="http://omssa.yalku.mx/#credit">Crédito</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link scroll text-dark" href="http://omssa.yalku.mx/#contact">Contacto</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-dark" href="javascript:;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Otros
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li>
-                                        <a class="dropdown-item text-dark" href="http://omssa.yalku.mx/nosotros.php">Nosotros</a>
-                                    </li>
-
-                                </ul>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link scroll" href="#login">Ingresar</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <!-- ***** Header End ***** -->
+    <?php include('partials/header_clean.php') ?>
 
        <!--====== Contact Area Start ======-->
        <section id="contact" class=" contact-area  ptb_100 mt-3">

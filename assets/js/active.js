@@ -293,5 +293,21 @@
                 }
             });
     });
-
+    const $rangeslider = $('#range');
+   
+    let resultado;
+    let pago;
+    $rangeslider
+    .rangeslider({
+      polyfill: true
+    })
+    .on('click', function () {
+        let plazo = $('#calculator-plazo-maximo-landing').val();
+        console.log('CLICK CHANGE')
+        // $prestamo[0].value = formatter.format(this.value) + '.00';
+        pago = (this.value >0)?this.value : 24;
+        $('#pagoprestamo').html('$'+pago);
+        resultado =  Math.round(pago / plazo);
+        $('#pagoplazo').html('$'+resultado);
+    })
 }(jQuery));

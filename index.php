@@ -12,7 +12,7 @@
     <title>Omssa</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="icon" href="assets/img/favicon/logo_web.ico">
 
     <!-- ***** All CSS Files ***** -->
 
