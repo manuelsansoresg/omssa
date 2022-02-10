@@ -1,5 +1,5 @@
 <?php
- $path = "http://localhost/omssa/";
+ require('constant.php')
 ?>
 
 <!-- ***** Header Start ***** -->

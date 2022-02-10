@@ -1,5 +1,5 @@
 <?php
- $path = "http://localhost/omssa/";
+ require('constant.php')
 ?>
 <!-- ***** Header Start ***** -->
 <header class="navbar navbar-sticky navbar-expand-lg navbar-dark shadow">
